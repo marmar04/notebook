@@ -1,6 +1,5 @@
 #+title: Lecture 0: Scratch
 
-* Lecture 0: Scratch
 problem solving -> turn into code
 find mistakes
 computational thinking
