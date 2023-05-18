@@ -1,0 +1,77 @@
+#+title: Lecture 0: Scratch
+
+* Lecture 0: Scratch
+problem solving -> turn into code
+find mistakes
+computational thinking
+algorithms
+
+** Computer Science
+- Study of information
+- Solve problems
+  - input -> |blank| -> output
+
+
+** Unary = Numbers
+- base 2 (binary): 2 numbers to count (0,1)
+- base 10 (decimal): 10 numbers to count (0-9)
+
+- bit
+  + (bi)nary digi(t) -> bit
+
+- How can 3 binary digits count up to 7
+  + they have 8 combinations of rearranging
+
+*** Counting Binary
+1) How do we see 123 is actually
+
+1 * 10^2 + 2 * 10^1 + 3 * 10^0
+
+2) Now observe the following binary digit
+
+ 1 0 1
+
+3) We can split it into powers of 2 so it becomes
+
+ 2^2 + 2^1 + 2^0
+
+4) Notice that the powers start from 0?
+
+
+** Representing Data
+*** Letters
+- We can map specific numbers to letters (ASCII is an example)
+  + ASCII uses 7 bits to compose the mappings, meaning there's 256 combinations
+- It's context dependent
+- ASCII doesn't cover arabic/other glyphs
+  + Unicode is the standard (utf-8)
+  + Uses 32 bits which have 4+ billion combinations
+  + Have enough room for emojis
+
+*** Colours
+- Map a number with a colour using RGB
+
+**** Pictures
+- One pixel at a time with each colour
+
+**** Videos
+- A lot of pictures shown one after another to simulate motion
+
+*** Music
+- Map a number with a discrete value (one for tone, pitch, loudness, etc.)
+
+** Computer Terms
+*** Abstractions
+- Simplify functions so that you don't have to think of the low level implementation
+- Code becomes more self explanatory
+
+*** Algorithms
+- Ways to solve problems
+
+*** Pseudocode
+- In English
+  + Verbs -> functions
+  + if-else -> conditional
+  + boolean expressions - question with yes/no as the answer
+- Have loops
+- To divide the problem into smaller pieces
